@@ -33,10 +33,11 @@
         />
       </q-toolbar>
     </q-header>
-      <q-footer
-        class="bg-white small-screen-only"
-        bordered
-      >
+
+    <q-footer
+      class="bg-white small-screen-only"
+      bordered
+    >
       <q-tabs
         class="text-grey-10"
         active-color="primary"
@@ -51,20 +52,21 @@
           icon="eva-camera-outline"
         />
       </q-tabs>
-      </q-footer>
-    <q-page-container>
+    </q-footer>
+
+    <q-page-container class="bg-grey-1">
       <router-view />
     </q-page-container>
   </q-layout>
 </template>
 
 <script>
-
 export default {
   name: 'MainLayout',
-  components: {},
+
   data () {
     return {
+      
     }
   }
 }
